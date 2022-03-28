@@ -1,0 +1,28 @@
+.square {
+    background-color: rgb(187, 166, 128);
+    
+    border: 2px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 10vh;
+    height: 10vh;
+    margin: .5rem;
+    padding: 0;
+    text-align: center;
+    width: 10vh;
+}
+
+.board-row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.square:hover {
+    background-color: aquamarine;
+}
+
+.square:active {
+    background-color: red;
+}

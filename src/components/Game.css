@@ -1,0 +1,21 @@
+.game-wrapper {
+    display: grid;
+    grid-template-columns: 45vh 1fr;
+}
+
+.game-wrapper > div:nth-child(2) {
+    padding-left: 2rem
+}
+
+.board {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+}
+
+.reset-button {
+    padding: 1rem;
+    position: absolute;
+    top: 55%;
+    transform: translate(50%, -3rem);
+}

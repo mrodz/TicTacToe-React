@@ -1,0 +1,20 @@
+.close-button {
+    float: right;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@keyframes fade-in-close {
+    0% {
+        color: inherit;
+    }
+
+    100% {
+        color: #fff;
+    }
+}
+
+.close-button:hover {
+    animation: fade-in-close forwards .2s;
+}

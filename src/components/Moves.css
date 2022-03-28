@@ -1,0 +1,41 @@
+.move-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3rem;
+}
+
+@keyframes fade-in-card {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.move-card {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(187, 113, 113);
+    padding: 1rem;
+    border-radius: 20px;
+    width: fit-content;
+    display: flex;
+
+    animation: fade-in-card forwards .6s;
+}
+
+.move-card > div {
+    display: grid;
+    grid-template-columns: 5rem 10rem;
+}
+
+.move-card-bubble {
+    border: solid rgb(158, 156, 156) .1rem;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
